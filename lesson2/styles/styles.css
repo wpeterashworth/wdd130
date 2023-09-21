@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: orange;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  
+  nav {
+    background-color: steelblue;
+    padding: 10px;
+    background-color: navy;
+  }
+
+  a {
+    color: white;
+    margin: 40px;
+  }
+
+  h1 {
+    color: steelblue;
+  }
+  img {
+    width: 800px;
+    border: 4px solid steelblue;
+  }
+  p {
+    padding: 10px;
+  }
+  footer {
+    background-color: steelblue;
+    color: white;
+  }
