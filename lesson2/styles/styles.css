@@ -4,6 +4,15 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
 
+  #active {
+    background-color: white;
+    color: steelblue;
+  }
+  
+  .main-para {
+    font-size: 1.5em;
+    line-height:1.5em;
+  }
   
   nav {
     background-color: steelblue;
