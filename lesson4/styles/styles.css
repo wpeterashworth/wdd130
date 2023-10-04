@@ -1,0 +1,25 @@
+body {
+    text-align:center;
+    background-color: hotpink;
+  }
+
+    h1 {
+        color: white;
+        text-align:center;
+    }
+
+    main {
+        text-align:center;
+    }
+
+    .first-para {
+        font-size: 1.5em;
+        color: white
+    }
+
+    img {
+        display:block;
+        margin: 0 auto;
+        max-width: 200px
+    }
+
