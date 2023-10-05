@@ -12,13 +12,45 @@ main {
     text-align: center;
 }
 
+.second-para {
+    font-size: 1.25em
+}
+
+.part-one {
+    color: white;
+}
+
+.part-two {
+    color: black;
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+}
+
 .first-para {
-    font-size: 1.5em;
-    color: white
+    color: white;
+    width: 35%;
+    margin: 0 auto
 }
 
 img {
     display: block;
     margin: 0 auto;
     max-width: 200px
+}
+
+.bottom-text{
+    width: 25%;
+    margin: 1.5em auto
+}
+
+.part-three{
+    font-size: 2em;
+    color: white;
+    width: 22%;
+    margin: 1em auto;
+}
+
+h1:hover{
+    color:black
 }
