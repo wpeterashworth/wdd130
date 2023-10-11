@@ -39,18 +39,18 @@ img {
     max-width: 200px
 }
 
-.bottom-text{
+.bottom-text {
     width: 25%;
     margin: 1.5em auto
 }
 
-.part-three{
+.part-three {
     font-size: 2em;
     color: white;
     width: 22%;
     margin: 1em auto;
 }
 
-h1:hover{
-    color:black
+h1:hover {
+    color: black
 }
