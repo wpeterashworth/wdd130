@@ -3,15 +3,21 @@
   }
   
   div img {
+    padding-bottom: 100px;
     display: block;
     margin: 0 auto;
     width: 100%;
   }
 
   footer img {
-    margin: 75px;
+    margin-left: 130px;
+    margin-right: 25px;
     display: inline-block;
     width: 250px;
     border: 12px solid rgb(100, 99, 99);
     border-radius: 150px
+  }
+
+  p {
+    padding-bottom: 50px;
   }
