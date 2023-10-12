@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Inclusive+Sans&family=Mooli&family=Playfair+Display&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,7 +8,9 @@
 nav a {
     text-align: center;
     color: black;
-    text-decoration: none
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 35px;
 }
 
 #hero-msg h1,
@@ -28,7 +32,10 @@ main section {
 }
 
 body {
-    background-color: #83C5BE
+    background-color: #83C5BE;
+    font-family: "PlayFair Display, Barlow, Inclusive Sans";
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -44,7 +51,10 @@ nav a:hover {
 .join {
     background-color: #83C5BE;
     color: black;
-    text-decoration: none
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover,
@@ -54,16 +64,23 @@ nav a:hover {
 }
 
 .msg {
-    background-color: #83C5BE
+    background-color: #83C5BE;
+    line-height: 1.5em;
+    padding: 30px;
 }
 
 footer {
     background-color: #074d54;
-    color: white
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
-    color: #074d54
+    color: #074d54;
+    font-family: "Mooli, Playfair Display, Barlow, Inclusive Sans";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -71,11 +88,13 @@ h4 {
 }
 
 .msg h2 {
-    color: #074d54
+    color: #074d54;
+    font-family: "Mooli, Playfair Display, Barlow, Inclusive Sans";
 }
 
 .msg p {
-    color: #074d54
+    color: #074d54;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -94,4 +113,29 @@ footer p a:hover {
 
 #hero-img {
     width: 100%
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+    width: 80px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }
