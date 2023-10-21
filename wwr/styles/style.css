@@ -19,6 +19,7 @@ nav a {
 }
 
 .button-box {
+    background-color: #074d54;
     text-align: center;
 }
 
@@ -33,7 +34,7 @@ main section {
 
 body {
     background-color: #83C5BE;
-    font-family: "PlayFair Display, Barlow, Inclusive Sans";
+    font-family: "PlayFair Display", serif;
     margin: 0;
     padding: 0;
 }
