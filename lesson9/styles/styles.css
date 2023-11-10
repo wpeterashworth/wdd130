@@ -1,0 +1,66 @@
+.card {
+    max-width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+body {
+    background-color:black;
+}
+
+.stats {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(67, 67, 158);
+    height: 100px;
+    align-content: center;
+}
+
+.stat {
+    color: white;
+    text-align: center;
+    border-right: 1px grey solid;
+}
+
+.stats div:nth-child(3){
+    border:none;
+}
+
+.stat p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.stat1 {
+    font-size: 1.5rem;
+}
+
+.stat2 {
+    font-size: .8rem
+}
+
+.timing {
+    color: navy;
+    text-align: center;
+    margin: 0;
+}
+
+.heading {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+    color: grey;
+    margin-top: 10%;
+}
