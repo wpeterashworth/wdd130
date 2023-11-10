@@ -215,6 +215,50 @@ main section img {
     grid-template-columns: repeat(10, 1fr);
 }
 
+.subpage {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.subpage-title {
+    text-align: center;
+    font-weight: bold;
+    font-family: Mooli, "Playfair Display", Barlow, "Inclusive Sans";
+}
+
+.subpage-header1, .subpage-header2, .subpage-header3 {
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    font-family: Mooli, "Playfair Display", Barlow, "Inclusive Sans";
+}
+
+.subpage-header1, .header1-para {
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+.subpage-header2, .header2-para {
+    grid-column: 5/8;
+    grid-row: 2/4;
+}
+
+.subpage-header3, .header3-para {
+    grid-column: 2/4;
+    grid-row: 4/6;
+}
+
+.header1-para, .header2-para, .header3-para {
+    font-family: "PlayFair Display", serif;
+}
+
+#river_photo {
+    grid-column: 5/8;
+    grid-row: 4/6;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
