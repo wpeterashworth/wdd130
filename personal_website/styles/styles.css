@@ -5,10 +5,12 @@
 body {
     margin: 0;
     padding: 0;
+    justify-content: space-around;
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 180px auto;
     background-color: #6cb8c2;
     border-style: ridge;
     border-width: 1em;
@@ -17,13 +19,17 @@ header {
 nav {
     font-size: 1.5em;
     display: flex;
+    justify-content: space-around;
 }
 
 nav a {
+    padding: 37px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    padding: 100px;
+    padding: 37px;
     color: rgb(90, 85, 85)
 }
 
@@ -32,25 +38,32 @@ nav a:hover {
     background-color: #05668D;
 }
 
+#logo-link {
+    padding-top: 2px;
+    justify-self: center;
+    align-self: center;
+}
+
 .logo {
     padding: 20px;
     background-color: rgb(90, 85, 85);
+    width: 100px;
 }
 
 footer {
     background-color: #6cb8c2;
-    margin: 0;
-    padding: 20px;
-    border-radius: 20px;
+    padding: 25px;
+    border-style: ridge;
+    border-width: 1em;
     font-family: Karla, Montserrat, "Playfair Display", sans-serif;
+    text-align: center;
 }
 
 
 /* Home page stuff */
 
 .home-page-content {
-    overflow-x: hidden;
-    max-width: 1600px;
+    max-width: 1800px;
     background-color: #f5f6e9;
     padding-bottom: 20px;
 }
@@ -89,6 +102,7 @@ footer {
 #home-page-picture-one {
     grid-column: 5/6;
     padding: 20px;
+    align-self: center;
 }
 
 .home-page-part-two {
@@ -108,4 +122,36 @@ footer {
 #home-page-picture-two {
     grid-row: 1/2;
     padding: 20px;
+    align-self: center;
+}
+
+p:nth-of-type(1), p:nth-of-type(2), p:nth-of-type(3) {
+    text-indent: 50px;
+}
+
+
+/* Small screen stuff */
+
+@media screen and (max-width: 900px) {
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+
+    nav, footer {
+        flex-direction: column;
+    }
+
+    .home-page-content {
+        display: block;
+        height: auto;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+
+    .home-page-title {
+        font-size: 25px;
+    }
 }
