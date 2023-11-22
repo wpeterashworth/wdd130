@@ -1,1 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat&family=Playfair+Display&display=swap');
+
+
+/* Every page stuff */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: #6cb8c2;
+    border-style: ridge;
+    border-width: 1em;
+}
+
+nav {
+    font-size: 1.5em;
+    display: flex;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 100px;
+    color: rgb(90, 85, 85)
+}
+
+nav a:hover {
+    color: #f5f6e9;
+    background-color: #05668D;
+}
+
+.logo {
+    padding: 20px;
+    background-color: rgb(90, 85, 85);
+}
+
+footer {
+    background-color: #6cb8c2;
+    margin: 0;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Karla, Montserrat, "Playfair Display", sans-serif;
+}
+
+
+/* Home page stuff */
+
+.home-page-content {
+    overflow-x: hidden;
+    max-width: 1600px;
+    background-color: #f5f6e9;
+    padding-bottom: 20px;
+}
+
+.home-page-title {
+    font-family: "Playfair Display", Montserrat, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(90, 85, 85);
+    background-color: #6cb8c2;
+    margin: 0;
+    padding: 20px;
+    border-style: ridge;
+    border-width: 1em;
+}
+
+.home-page-intro {
+    text-align: center;
+    color: rgb(90, 85, 85);
+    font-size: 1.5em;
+}
+
+.home-page-part-one {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    font-family: Karla, Montserrat, "Playfair Display", sans-serif;
+    border-style: double;
+}
+
+.site-purpose {
+    grid-column: 1/5;
+    font-size: 1.25em;
+}
+
+#home-page-picture-one {
+    grid-column: 5/6;
+    padding: 20px;
+}
+
+.home-page-part-two {
+    padding: 20px;
+    font-family: Karla, Montserrat, "Playfair Display", sans-serif;
+    font-size: 1.25em;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    border-style: double;
+}
+
+.testimony {
+    grid-column: 2/6;
+}
+
+#home-page-picture-two {
+    grid-row: 1/2;
+    padding: 20px;
+}
