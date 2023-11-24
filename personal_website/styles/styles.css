@@ -225,10 +225,10 @@ form {
         flex-direction: column;
     }
 
-    .home-page-content {
+    /* .home-page-content {
         display: block;
         height: auto;
-    }
+    } */
 
     footer {
         margin-top: 25px;
