@@ -29,7 +29,6 @@ nav a {
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    padding: 37px;
     color: rgb(90, 85, 85)
 }
 
@@ -130,6 +129,85 @@ p:nth-of-type(1), p:nth-of-type(2), p:nth-of-type(3) {
 }
 
 
+/* Page two stuff */
+
+.page-two-content {
+    background-color: #f5f6e9;
+    max-width: 1800px;
+    overflow: hidden;
+}
+
+.page-two-title {
+    border-width: 1em;
+    border-style: ridge;
+    font-family: "Playfair Display", Montserrat, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(90, 85, 85);
+    background-color: #6cb8c2;
+    margin: 0;
+    padding: 20px;
+}
+
+.page-two-intro {
+    text-align: center;
+    color: rgb(90, 85, 85);
+    font-size: .75em;
+}
+
+.page-two-part-two {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#page-two-picture-one {
+    padding: 50px;
+}
+
+#page-two-picture-two {
+   padding: 50px;
+   width: 400px;
+   height: 300px;
+   align-self: center;
+}
+
+.clarification {
+    font-size: 1.5em;
+    justify-self: center;
+    align-self: center;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #f5f6e9;
+    color: #6cb8c2;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.25em;
+    font-family: Karla, Montserrat, "Playfair Display", sans-serif;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: rgb(90, 85, 85);
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    font-size: 1.25em;
+    background-color: #f5f6e9;
+    display: none;
+    overflow: hidden;
+    font-family: Karla, Montserrat, "Playfair Display", sans-serif;
+  }
+
 /* Form styling */
 
 form {
@@ -225,10 +303,9 @@ form {
         flex-direction: column;
     }
 
-    /* .home-page-content {
-        display: block;
+    .home-page-content {
         height: auto;
-    } */
+    }
 
     footer {
         margin-top: 25px;
@@ -237,4 +314,5 @@ form {
     .home-page-title {
         font-size: 25px;
     }
+
 }
