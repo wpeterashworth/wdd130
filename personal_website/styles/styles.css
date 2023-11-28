@@ -158,7 +158,6 @@ p:nth-of-type(1), p:nth-of-type(2), p:nth-of-type(3) {
 .page-two-part-two {
     display: flex;
     justify-content: space-around;
-
 }
 
 #page-two-picture-one {
@@ -173,6 +172,7 @@ p:nth-of-type(1), p:nth-of-type(2), p:nth-of-type(3) {
 }
 
 .clarification {
+    font-family: Karla, Montserrat, "Playfair Display", sans-serif;
     font-size: 1.5em;
     justify-self: center;
     align-self: center;
