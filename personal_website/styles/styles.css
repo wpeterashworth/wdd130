@@ -83,11 +83,14 @@ footer {
     text-align: center;
     color: rgb(90, 85, 85);
     font-size: 1.5em;
+    padding: 25px;
+    margin: 25px;
 }
 
 .home-page-part-one {
-    padding: 20px;
+    padding: 25px;
     display: grid;
+    margin: 25px;
     grid-template-columns: repeat(5, 1fr);
     font-family: Karla, Montserrat, "Playfair Display", sans-serif;
     border-style: double;
@@ -96,6 +99,7 @@ footer {
 .site-purpose {
     grid-column: 1/5;
     font-size: 1.25em;
+    padding: 15px;
 }
 
 #home-page-picture-one {
@@ -105,7 +109,8 @@ footer {
 }
 
 .home-page-part-two {
-    padding: 20px;
+    padding: 25px;
+    margin: 25px;
     font-family: Karla, Montserrat, "Playfair Display", sans-serif;
     font-size: 1.25em;
     display: grid;
@@ -116,6 +121,7 @@ footer {
 
 .testimony {
     grid-column: 2/6;
+    padding: 15px;
 }
 
 #home-page-picture-two {
@@ -181,7 +187,8 @@ p:nth-of-type(1), p:nth-of-type(2), p:nth-of-type(3) {
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: #f5f6e9;
-    color: #6cb8c2;
+    color: #05668D;
+    font-weight: bold;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -196,6 +203,7 @@ p:nth-of-type(1), p:nth-of-type(2), p:nth-of-type(3) {
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
     background-color: rgb(90, 85, 85);
+    color: #6cb8c2
   }
   
   /* Style the accordion panel. Note: hidden by default */
@@ -208,6 +216,38 @@ p:nth-of-type(1), p:nth-of-type(2), p:nth-of-type(3) {
     font-family: Karla, Montserrat, "Playfair Display", sans-serif;
   }
 
+
+  /* page three stuff  */
+
+.page-three-content {
+    max-width: 1800px;
+    background-color: #f5f6e9;
+    padding-bottom: 20px;
+}
+
+.page-three-title {
+    font-family: "Playfair Display", Montserrat, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(90, 85, 85);
+    background-color: #6cb8c2;
+    margin: 0;
+    padding: 20px;
+    border-style: ridge;
+    border-width: 1em;
+}
+
+.para-one, .para-two, .para-three {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.25em;
+    font-family: Karla, Montserrat, "Playfair Display", sans-serif
+}
+
+#page-three-picture-one, #page-three-picture-two {
+    margin: 0 auto;
+    display: block;
+}
 /* Form styling */
 
 form {
@@ -303,16 +343,45 @@ form {
         flex-direction: column;
     }
 
-    .home-page-content {
-        height: auto;
-    }
-
     footer {
-        margin-top: 25px;
+        text-align: center;
     }
 
-    .home-page-title {
-        font-size: 25px;
+    .site-purpose {
+        text-align: center;
+        text-indent: 20%;
     }
 
+    .home-page-part-one {
+        display: block;
+    }
+
+    .home-page-part-two {
+        display: block;
+    }
+
+    .testimony {
+        text-align: center;
+    }
+
+    #home-page-picture-two {
+        width: 300px;
+    }
+
+    .page-two-part-two {
+        display: block;
+    }
+
+    #page-two-picture-one {
+        margin: 0 auto;
+    }
+
+    #page-two-picture-two {
+       margin: 0 auto;
+    }
+
+    .clarification {
+        text-align: center;
+        padding: 25px;
+    }
 }
